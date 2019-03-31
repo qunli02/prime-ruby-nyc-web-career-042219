@@ -6,12 +6,14 @@ def prime?(x)
     return true
   else
     number = x - 1
-    While number > 2
+    loop do
       if x % number == 0
         return true
         break
-      elsif number >= at
-        
+      elsif number >= 2
+        number -= 1
+      end
+    end
   end
     
 end
