@@ -1,8 +1,18 @@
 # Add  code here!
 def prime?(x)
-  number = x - 1
   if x < 2 
-    
+    return false
+  elsif x == 2
+    return true
+  else
+    number = x - 1
+    While number > 2
+      if x % number == 0
+        return true
+        break
+      elsif number >= at
+        
+  end
     
 end
 
