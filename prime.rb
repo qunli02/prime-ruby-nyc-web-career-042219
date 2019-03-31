@@ -3,11 +3,11 @@ def prime?(x)
   number = x - 1
   until number == 1
     if x > 2 
-      puts "not prime"
-    if x % number == 0 do
-      puts "prime"
+      return false
       break
-      number -= 1
+    elsif x % number == 0 do
+      return true
+      break
     else
       number -= 1
     end
