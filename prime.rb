@@ -8,7 +8,7 @@ def prime?(x)
     number = x - 1
     loop do
       if x % number == 0
-        return true
+        return false
         break
       elsif number >= 2
         number -= 1
