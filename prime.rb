@@ -12,6 +12,9 @@ def prime?(x)
         break
       elsif number >= 2
         number -= 1
+      else
+        return true
+        break
       end
     end
   end
