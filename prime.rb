@@ -5,7 +5,7 @@ def prime?(x)
     if x > 2 
       return false
       break
-    elsif x % number == 0 do
+    elsif x % number == 0
       return true
       break
     else
