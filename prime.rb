@@ -4,6 +4,7 @@ def prime?(x)
   until number == 1
     if x == 2
       return true
+      break
     if x > 2 
       return false
       break
