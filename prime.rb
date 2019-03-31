@@ -2,7 +2,8 @@
 def prime?(x)
   number = x - 1
   until number == 1
-    break if x < 2 || x == 2 
+    return false break if x < 2
+    return true break if x == 2
   end
     
 end
