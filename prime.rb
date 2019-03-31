@@ -1,10 +1,8 @@
 # Add  code here!
 def prime?(x)
   number = x - 1
-  until number == 1
     return false break if x < 2
     return true break if x == 2
-  end
     
 end
 
