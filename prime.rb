@@ -10,7 +10,7 @@ def prime?(x)
       if x % number == 0
         return false
         break
-      elsif number >= 2
+      elsif number > 2
         number -= 1
       else
         return true
